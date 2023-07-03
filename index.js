@@ -13,3 +13,12 @@ $(document).ready(function() {
       $("#main-container-2").css("display", "none");
     });
   });
+ document.addEventListener('DOMContentLoaded', function() {
+    var inputElement = document.getElementById('input');
+  
+    inputElement.addEventListener('input', function(event) {
+      var inputValue = event.target.value;
+      var cleanedValue = inputValue.replace(/\D/g, '');
+      event.target.value = cleanedValue;
+    });
+  });
