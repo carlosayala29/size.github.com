@@ -1,6 +1,6 @@
 /*External CSS
 Color pallet: https://colorhunt.co/palette/191825865dffe384ffffa3fd */
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     #body {
         display: grid;
         height: 100vh;
