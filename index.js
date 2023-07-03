@@ -14,7 +14,7 @@ $(document).ready(function() {
     });
   });
  document.addEventListener('DOMContentLoaded', function() {
-    var inputElement = document.getElementById('input');
+    var inputElement = document.getElementById('#input');
   
     inputElement.addEventListener('input', function(event) {
       var inputValue = event.target.value;
