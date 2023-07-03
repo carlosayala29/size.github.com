@@ -9,8 +9,8 @@ Color pallet: https://colorhunt.co/palette/191825865dffe384ffffa3fd */
         background: linear-gradient(to bottom, #865DFF, #9774fd, #8057fc);
     }
     #container {
-        height: 500px;
-        width: 400px;
+        height: 70vh;
+        width: 60vw;
     }
 }
 body {
