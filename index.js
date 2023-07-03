@@ -1,15 +1,15 @@
-$(".button-input").click(function() {
-    var currentSize = $(".number-input").val();
-    const realSize = (currentSize - 1);
-    $(".input-div").css("display", "none");
-    $(".result-div").css("display", "block");
-    $(".greeting-result").text("Tu talla real es " + realSize);
-})
-
-$(".button-result").click(function() {
-    $(".number-input").val(null);
-    $(".input-div").css("display", "block");
-    $(".result-div").css("display", "none");
-})
-
-// https://github.com/carlosayala29/size.github.com.git
+$(document).ready(function() {
+    $("#button").click(function() {
+      var currentSize = $("#input").val();
+      const realSize = currentSize - 1;
+      $("#result-h1").text("Tu talla real es " + realSize);
+      $("#main-container-1").css("display", "none");
+      $("#main-container-2").css("display", "block");
+    });
+  
+    $("#go-back").click(function() {
+      $("#input").val("");
+      $("#main-container-1").css("display", "block");
+      $("#main-container-2").css("display", "none");
+    });
+  });
