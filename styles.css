@@ -8,6 +8,11 @@ Color pallet: https://colorhunt.co/palette/191825865dffe384ffffa3fd */
         /*background-color: #865DFF;*/
         background: linear-gradient(to bottom, #865DFF, #9774fd, #8057fc);
     }
+    #container {
+        height: 500px;
+        width: 400px;
+    }
+}
 body {
     display: flex;
     justify-content: center;
