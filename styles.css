@@ -1,6 +1,13 @@
 /*External CSS
 Color pallet: https://colorhunt.co/palette/191825865dffe384ffffa3fd */
-
+@media (max-width: 768px) {
+    #body {
+        display: grid;
+        height: 100vh;
+        margin: 0;
+        /*background-color: #865DFF;*/
+        background: linear-gradient(to bottom, #865DFF, #9774fd, #8057fc);
+    }
 body {
     display: flex;
     justify-content: center;
